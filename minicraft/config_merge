@@ -1,0 +1,13 @@
+[stick]
+wood: 2
+
+[sword]
+stick: 2
+iron: 3
+
+[axe]
+stick: 2
+stone: 3
+
+[brick]
+dirt: 4
