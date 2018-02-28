@@ -1,1 +1,1 @@
-web: gunicorn minicraft.wsgi --log-file - --threads 1
+web: gunicorn minicraft.wsgi --log-file - --workers 1 --threads 1
