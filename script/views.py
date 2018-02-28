@@ -57,8 +57,6 @@ def register(request):
             return HttpResponse(json.dumps(data), content_type="application/json")
 
 def game(request):
-    print request.session['username']
-    print request.session['password']
     user = User.userList[User.userList.index(User(request.session['username'], request.session['password']))]
     map = minicraft.map.map(user)
 
