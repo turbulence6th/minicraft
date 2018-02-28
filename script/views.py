@@ -1,4 +1,3 @@
-from django.core.context_processors import request
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 import json
